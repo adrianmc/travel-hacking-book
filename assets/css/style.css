@@ -24,6 +24,10 @@
 	color: #5A5A5A;
 }
 
+.icon-heading {
+	height: 120px;
+}
+
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
@@ -241,7 +245,8 @@ input {
 
 #g h2 {
 	font-weight: 400;
-	color: #b7b7b7;
+	color: #5A5A5A;
+	/*color: #b7b7b7;*/
 }
 
 .btn-download {
@@ -270,21 +275,21 @@ table.table tr td.td-last {
 	text-align: left;
 }
 
-/* BLOG POST CONFIGURATION */
-.previwes-section {
+/* TESTIMONIALS CONFIGURATION */
+.testimonials-section {
 	padding: 0px 0px 10px 0px;
 }
-.previwes-section.active {
+.testimonials-section.active {
 	display: block;
 }
-.previwes-section {
+.testimonials-section {
 	background-color: #fff;
 	border-radius: 2px;
 	padding: 0px 0px 40px 0px;
 }
-.previwes-section .postcard-number {
+.testimonials-section .postcard-number {
 }
-.previwes-section .postcard-number .number {
+.testimonials-section .postcard-number .number {
 	color: #fff;
 	font-size: 20px;
 	text-align: center;
@@ -295,45 +300,45 @@ table.table tr td.td-last {
 	height: 60px;
 	display: inline-block;
 }
-.previwes-section .postcard-number .date {
+.testimonials-section .postcard-number .location {
 	display: inline;
 	color: #da564a;
 	padding: 0px 0px 0px 23px;
 	font-size: 20px;
 }
-.previwes-section .content {
+.testimonials-section .content {
 	padding: 0px 30px 0px 85px;
 }
-.previwes-section .content h1 {
+.testimonials-section .content h1 {
 	margin: 0px;
 	color: #333;
 	font-size: 35px;
 	padding: 0px 0px 0px 0px;
 }
-.previwes-section .content p {
+.testimonials-section .content p {
 	padding: 20px 0px 0px 0px;
 }
-.previwes-section .content p {
+.testimonials-section .content p {
 	font-size: 16px;
 	color: #BCBCBC;
 }
-.previwes-section .content hr {
+.testimonials-section .content hr {
 	margin-bottom: 10px;
 	border-top: 1px solid #d0d0d0;
 }
-.previwes-section .profile {
+.testimonials-section .profile {
 	padding: 0px 30px 10px 85px;
 }
-.previwes-section .profile .profile-pic {
+.testimonials-section .profile .profile-pic {
 	float: left;
 }
-.previwes-section .profile .profiledetials {
+.testimonials-section .profile .profiledetails {
 	margin-left: 25px;
 	display: inline-block;
 }
 
 @media (max-width: 468px) {
-	.previwes-section .profile .profiledetials {
+	.testimonials-section .profile .profiledetails {
 	margin-left: 10px;
 	display: inline-block;
 }
