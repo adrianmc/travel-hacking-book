@@ -28,6 +28,10 @@
 	height: 120px;
 }
 
+.resource-img {
+	height: 240px;
+}
+
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
@@ -223,6 +227,12 @@ input {
 	padding-bottom: 50px;
 	padding-top: 50px;
 	background: #ffffff;
+}
+
+.dark-cta {
+	padding-bottom: 50px;
+	padding-top: 50px;
+	background: #2f2f2f;
 }
 
 .btn-yellow {
