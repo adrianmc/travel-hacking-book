@@ -145,9 +145,15 @@ input {
 
 .subscribe-input {
 	float: left;
-	width: 65%;
+	width: 100%;
 	text-align: left;
 	margin-right: 2px;
+}
+
+@media(min-width: 420px) {
+	.subscribe-input {
+		width: 65%;
+	}
 }
 
 .subscribe-submit {
@@ -192,7 +198,7 @@ input {
 /* HEADER WRAP SECTION */
 
 #h {
-	background: #f4f5bc;
+	/*background: #f4f5bc;*/
 	min-height: 600px;
 	padding-top: 50px;
 	color: #745433;
