@@ -83,9 +83,12 @@ body {
 }
 .centered {text-align: center}
 .mt {margin-top: 50px;}
+.mt-small {margin-top: 25px;}
 .mb {margin-bottom: 50px;}
+.mb-small {margin-bottom: 25px;}
 .mtb {margin-top: 50px; margin-bottom: 50px;}
 .mtb2 { margin-top: 100px; margin-bottom: 100px;}
+.mtb-small {margin-top: 25px; margin-bottom: 25px;}
 .ptb {padding-top: 80px; padding-bottom: 80px;}
 
 .clear {
