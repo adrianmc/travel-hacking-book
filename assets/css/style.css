@@ -201,11 +201,13 @@ input {
 	/*background: #f4f5bc;*/
 	min-height: 600px;
 	padding-top: 50px;
-	color: #745433;
+	/*color: #745433;*/
+	color: #5A5A5A;
 }
 
 #h h1 {
-	color: #745433;
+	/*color: #745433;*/
+	color: #5A5A5A;
 	padding-top: 20px;
 	font-weight: 400;
 	font-size: 40px;
