@@ -32,6 +32,23 @@
 	height: 240px;
 }
 
+#hero * {
+	color: white;
+}
+
+#hero .headline {
+	margin-top: 180px;
+	padding: 10px;
+}
+
+#hero {
+	height: 480px;
+	background: url('https://images.unsplash.com/photo-1422513391413-ddd4f2ce3340?fit=crop&fm=jpg&h=480&q=80') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
