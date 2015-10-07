@@ -12,6 +12,16 @@
 	margin-bottom: 5px;
 }
 
+.subtitle-emphasis {
+	font-weight: bold;
+	font-style: oblique;
+	font-size: 120%;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
 .white {
 	color: white;
 }
@@ -24,7 +34,11 @@
 	color: #5A5A5A;
 }
 
-#b h2, #b h4 {
+#b h2 {
+	color: white;
+}
+
+#b h4 {
 	color: #5A5A5A;
 }
 
@@ -290,7 +304,7 @@ input {
 }
 
 #g h2 {
-	font-weight: 400;
+	font-weight: 700;
 	color: #5A5A5A;
 	/*color: #b7b7b7;*/
 }
