@@ -6,6 +6,10 @@
 	0. CUSTOM STYLES
 ################################################################# */
 
+.red {
+	color: #da564a;
+}
+
 .logo-leaf {
 	display: inline !important;
 	height: 18px;
